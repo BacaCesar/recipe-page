@@ -1,1 +1,26 @@
-
+.title-xl{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 36px;
+    width: 311px;
+    margin: 40px 32px 32px 32px;
+}
+.title-l{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    color: var(--brandy-red);
+    width: 311px;
+    margin-inline: auto;
+}
+.title-m{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--dark-raspberry);
+    width: 311px;
+    padding-left: 24px;
+    padding-top: 24px;
+}

@@ -1,3 +1,5 @@
+@use '../mixins/resposive.scss' as *;
+
 .text{
     font-family: "Outfit", sans-serif;
     font-weight: 400;
@@ -6,4 +8,12 @@
     color: var(--wenge-brown);
     width: 311px;
     margin-inline: auto;
+    margin-bottom: 32px;
+    @include responsive(desktop){
+        width: 656px;
+        margin-inline: auto;
+    }
+}
+.brandy-red {
+    color: var(--brandy-red);
 }

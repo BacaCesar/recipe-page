@@ -1,3 +1,9 @@
+@use '../mixins/resposive.scss' as *;
 .image{
     width: 375px;
+    @include responsive(desktop){
+        width: 656px;
+        border-radius: 12px;
+        margin-inline: auto;
+    }
 }

@@ -1,9 +1,15 @@
+@use '../mixins/resposive.scss' as *;
+
 .title-xl{
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-size: 36px;
     width: 311px;
     margin: 40px 32px 32px 32px;
+    @include responsive(desktop){
+        width: 656px;
+        margin-inline: auto;
+    }
 }
 .title-l{
     font-family: "Young Serif", serif;
@@ -13,6 +19,10 @@
     color: var(--brandy-red);
     width: 311px;
     margin-inline: auto;
+    @include responsive(desktop){
+        width: 656px;
+        margin-inline: auto;
+    }
 }
 .title-m{
     font-family: "Outfit", sans-serif;
@@ -23,4 +33,8 @@
     width: 311px;
     padding-left: 24px;
     padding-top: 24px;
+    @include responsive(desktop){
+        width: 656px;
+        margin-inline: auto;
+    }
 }

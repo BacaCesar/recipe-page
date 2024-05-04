@@ -1,6 +1,12 @@
+@use '../mixins/resposive.scss' as *;
 html {
   scroll-behavior: smooth;
 }
 body {
   background-color:white;
+  margin-inline: auto;
+  @include responsive(desktop){
+    background-color: var(--eggshell);
+    margin-inline: auto;
+}
 }

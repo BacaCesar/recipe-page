@@ -1,7 +1,13 @@
+@use '../mixins/resposive.scss' as *;
 .preparation-time{
     width: 311px;
     height: 196px;
     border-radius: 12px;
     background-color: var(--snow);
     margin-inline: auto;
+    @include responsive(desktop){
+        width: 656px;
+        margin-inline: auto;
+        height: 180px;
+    }
 }
